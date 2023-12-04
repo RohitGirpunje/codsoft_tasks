@@ -1,5 +1,5 @@
 class MovieRecommendationSystem:
-    def _init_(self):
+    def __init__(self):
         self.movie_features = {1: ['Action', 4.5], 2: ['Comedy', 3.8], 3: ['Drama', 4.2], 4: ['Action', 3.5], 5: ['Comedy', 4.0]}
         self.user_preferences = {}
 
